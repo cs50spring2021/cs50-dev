@@ -28,6 +28,8 @@ You cannot connect to Thayer's Linux servers unless you are connected to the Dar
 	
 	> If it reports "connection refused" or (after a long wait) "connection timed out", double-check that you are connected to Dartmouth's network or VPN.
 	
+	> If it asks you `Are you sure you want to continue connecting (yes/no/[fingerprint])?`, say yes.
+
 	It will ask for your password; use your NetID password.
 	It will pause briefly, warn you about your usage of disk space on the Thayer File System (ThayerFS), and then give you a command prompt; it will look something like this:
 	
