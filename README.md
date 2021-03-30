@@ -39,6 +39,8 @@ You cannot connect to Thayer's Linux servers unless you are connected to the Dar
 	<< You are currently using 47.39M of your 5.00G home directory quota. >>
 	d12345x@plank:~$
 	```
+
+	> In the above example, `$` is the shell prompt on your laptop; if you are tempted to copy-paste the `ssh` command, don't copy that prompt!
 	
 3. You are now at *the command line*: the computer prints a prompt (`d12345x@plank:~$`) and waits for you to type a command.
 	The prompt indicates you are user `d12345x`, logged into server named `plank`, and your *current working directory* is `~`, which is shorthand for your *home directory*.
@@ -86,7 +88,8 @@ You cannot connect to Thayer's Linux servers unless you are connected to the Dar
 	**Important:** if you already had a Linux account on Thayer systems, and already had one or more of those dot files, `cp` will ask if you want to overwrite them; type `y` if you want to use our recommended file, and type `n` otherwise.
 	You may want to compare our files to yours, and edit in our suggestions as you see fit.
 
-9. To pick a preferred editor, edit `~/cs50-dev/dotfiles/profile.cs50` to uncomment one line defining `EDITOR`.
+9. (OPTIONAL) To pick a preferred editor, edit `~/cs50-dev/dotfiles/profile.cs50` to uncomment one line defining `EDITOR`.
+	You can postpone this step until you've decided on your favorite editor.
 
 	> Read [about editors](https://www.cs.dartmouth.edu/~cs50/Logistics/systems.html#editors).
 
